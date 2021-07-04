@@ -1,22 +1,32 @@
 <template>
   <Header />
-  <transition name="slide-fade" mode="out-in">
-    <router-view />
-  </transition>
+
+  <router-view v-slot="{ Component }">
+    <transition name="scale" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
 </template>
 
-<script setup></script>
+<script>
+import Header from './components/Header/Header.vue';
+export default {
+  name: 'App',
+  components: {
+    Header,
+  },
+};
+</script>
 
 <style scoped>
-.slide-fade-enter-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+.scale-enter-active,
+.scale-leave-active {
+  transition: all 0.5s ease;
 }
-.slide-fade-leave-active {
-  transition: all 0.25s;
-}
-.slide-fade-enter,
-.slide-fade-leave-to {
-  transform: translateY(50px);
+
+.scale-enter-from,
+.scale-leave-to {
   opacity: 0;
+  transform: scale(0.9);
 }
 </style>

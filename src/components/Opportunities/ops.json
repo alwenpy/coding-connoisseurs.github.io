@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Google Summer of Code",
+    "description": "Google Summer of Code or GSOC is a global program focused on introducing students to open source software development. Students work on a three month long programming project with an open source organization during their break from university",
+    "eligibility": "18+ University Students",
+    "applicationPeriod": "March (Every Year)",
+    "benefits": "",
+    "stipend": "https://developers.google.com/open-source/gsoc/help/student-stipends",
+    "link": "https://summerofcode.withgoogle.com/"
+  },
+  {
+    "id": 2,
+    "name": "Google Season of Docs",
+    "description": "Brings open source and technical writer communities together, to benefit them both. They aim to raise awareness of open source, of docs, and of technical writing.",
+    "eligibility": "18+",
+    "applicationPeriod": "May to June",
+    "benefits": "",
+    "stipend": "https://developers.google.com/season-of-docs/docs/tech-writer-payments",
+    "link": "https://developers.google.com/season-of-docs"
+  },
+  {
+    "id": 3,
+    "name": "Hacktober Fest",
+    "description": "A month-long celebration of open source software run by DigitalOcean.",
+    "eligibility": "Everyone",
+    "applicationPeriod": "October",
+    "benefits": "",
+    "stipend": "Official limited edition Hacktoberfest t-shirt",
+    "link": "https://hacktoberfest.digitalocean.com/"
+  },
+  {
+    "id": 4,
+    "name": "The X.Org Endless Vacation of Code (EVoC)",
+    "description": "X.Org Endless Vacation of Code (EVoC) is a Google Summer of Code (GSoC)-like project initiated in 2008 funded by the X.Org Foundation. It allows students to participate to X. Org-related projects during their vacation, at any time of the year.",
+    "eligibility": "Anyone can apply. Stipend is only provided to students with age 18+",
+    "applicationPeriod": "Anytime throughout the year",
+    "benefits": "",
+    "stipend": "5000 USD",
+    "link": "https://www.x.org/wiki/XorgEVoC/"
+  }
+]

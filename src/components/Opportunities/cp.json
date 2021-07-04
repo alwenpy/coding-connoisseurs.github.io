@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "ACM-ICPC",
+    "description": "The olympics of programming community. It is the oldest, largest, and most prestigious programming contest in the world.",
+    "eligibility": "A student must be enrolled in a degree program at the team’s institution with at least a half-time load.",
+    "applicationPeriod": "September - Oct",
+    "teamSize": "3"
+  },
+  {
+    "id": 2,
+    "name": "Google Kickstart",
+    "description": "Kick Start is a global online coding competition, consisting of three-hour rounds of a variety of algorithmic challenges designed by Google engineers.",
+    "eligibility": "Anyone",
+    "applicationPeriod": "February",
+    "teamSize": "1"
+  },
+  {
+    "id": 3,
+    "name": "Google Code Jam",
+    "description": "Code Jam is Google's longest running global coding competition. Competitors work their way through a series of online algorithmic puzzles to earn a spot at the World Finals, all for a chance to win the championship title and 15,000 USD.",
+    "eligibility": "18 years +",
+    "applicationPeriod": "March",
+    "teamSize": "1"
+  },
+  {
+    "id": 4,
+    "name": "Google Hashcode",
+    "description": "Hash Code is a team programming competition, organized by Google, for students and professionals around the world. Pick your team and programming language and solve some interesting engineering problems.Top teams will then be invited to a Google office for the Final Round.",
+    "eligibility": "18 years +",
+    "applicationPeriod": "January",
+    "teamSize": "4"
+  }
+]
