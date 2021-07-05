@@ -1,5 +1,5 @@
 <template>
-  <div>this is the resources comoponents</div>
+  <div>this is a joinus</div>
 </template>
 
 <script>

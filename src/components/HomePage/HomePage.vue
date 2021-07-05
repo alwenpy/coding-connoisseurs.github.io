@@ -25,7 +25,7 @@
           <Cards
             heading="Resources"
             content="Learning New Skills, Interview Prepration and much more"
-            routerLink="/"
+            routerLink="/resources"
             color="#938581"
           />
         </div>
@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import Cards from '../Cards/Cards.vue';
+import Cards from '../GeneralComponents/Cards.vue';
 export default {
   name: 'HomePage',
   components: {

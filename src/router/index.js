@@ -5,6 +5,7 @@ import CP from '../components/Opportunities/SubComponents/CP.vue';
 import Opensource from '../components/Opportunities/SubComponents/Opensource.vue';
 import Scholarship from '../components/Opportunities/SubComponents/Scholarship.vue';
 import InternshipAndJobs from '../components/Opportunities/SubComponents/InternshipAndJobs.vue';
+import Resources from '../components/Resources/Resources.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -20,6 +21,12 @@ const router = createRouter({
         { path: 'scholarship', component: Scholarship, name: 'scholarship' },
         { path: 'internshipandjobs', component: InternshipAndJobs, name: 'internshipandjobs' },
       ],
+      InternshipAndJobs,
+    },
+    {
+      path: '/resources',
+      component: Resources,
+      name: 'resources',
     },
   ],
 });
