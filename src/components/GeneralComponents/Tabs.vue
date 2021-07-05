@@ -1,7 +1,7 @@
 <template>
   <ul class="row menu-links">
     <li v-for="ele in data" :key="ele.tabName" class="col-12 col-md-5 col-lg-auto m-md-1">
-      <router-link :to="ele.route">
+      <router-link :to="ele.route" replace="true">
         <div class="link-name">{{ ele.tabName }}</div>
       </router-link>
     </li>

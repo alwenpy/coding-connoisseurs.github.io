@@ -35,7 +35,7 @@ import Tabs from '../GeneralComponents/Tabs.vue';
 export default {
   name: 'Opportunities',
   mounted() {
-    this.$router.push('/opportunities/opensource');
+    this.$router.replace('/opportunities/opensource');
   },
   components: {
     Tabs,

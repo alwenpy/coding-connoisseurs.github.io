@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-light bg-light" :style="{ backgroundColor: 'white!important' }">
     <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">
+      <router-link class="navbar-brand" to="/" replace>
         <img
           :style="{
             height: '50px',
@@ -41,12 +41,12 @@
               <div class="h-100 row align-items-center justify-content-center">
                 <div class="col-md-6 col-12">
                   <ul class="menu-links" @click="modal.hide()">
-                    <li><router-link to="/">Home</router-link></li>
-                    <li><router-link to="/opportunities">Oppurtunities</router-link></li>
-                    <li><router-link to="/">Resources</router-link></li>
-                    <li><router-link to="/">Events</router-link></li>
-                    <li><router-link to="/">Team</router-link></li>
-                    <li><router-link to="/">Join Us</router-link></li>
+                    <li><router-link to="/" replace>Home</router-link></li>
+                    <li><router-link to="/opportunities" replace>Oppurtunities</router-link></li>
+                    <li><router-link to="/resources" replace>Resources</router-link></li>
+                    <li><router-link to="/events" replace>Events</router-link></li>
+                    <li><router-link to="/teams" replace>Team</router-link></li>
+                    <li><router-link to="/joinus" replace>Join Us</router-link></li>
                   </ul>
                 </div>
               </div>

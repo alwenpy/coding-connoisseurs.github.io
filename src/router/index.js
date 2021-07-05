@@ -14,6 +14,7 @@ const router = createRouter({
       component: Opportunities,
       name: 'opportunities',
       children: [
+        { path: '', component: Opensource, name: '' },
         { path: 'opensource', component: Opensource, name: 'opensource' },
         { path: 'cp', component: CP, name: 'cp' },
         { path: 'scholarship', component: Scholarship, name: 'scholarship' },
@@ -21,6 +22,11 @@ const router = createRouter({
       ],
     },
   ],
+});
+
+router.beforeEach((to, from, next) => {
+  if (to.name === 'oppurtunities' && from.name === 'opensource') next({ name: 'home' });
+  else next();
 });
 
 export default router;

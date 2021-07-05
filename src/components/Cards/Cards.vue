@@ -18,7 +18,7 @@ export default {
   props: ['heading', 'content', 'routerLink', 'color'],
   methods: {
     handleClick() {
-      this.$router.push(this.routerLink);
+      this.$router.replace(this.routerLink);
     },
   },
   data() {
