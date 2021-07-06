@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .body {
-  min-height: 70vh;
+  min-height: 90vh;
 }
 .scale-enter-active,
 .scale-leave-active {
