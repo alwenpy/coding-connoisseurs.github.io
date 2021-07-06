@@ -16,7 +16,7 @@
         <div class="col-sm-6 col-md-5 col-12" :style="{ padding: '0' }">
           <Cards
             heading="Opportunities"
-            content="Competitions, Fellowship, Scholarship, Competitions and Open Source"
+            content="Competitions, Fellowship, Scholarship and Open Source"
             routerLink="/opportunities"
             color="#8896AB"
           />
@@ -36,7 +36,7 @@
           <Cards
             heading="Events"
             content="View upcoming and past events from Coding Connoiseurs"
-            routerLink="/opportunities"
+            routerLink="/events"
             color="#466362"
           />
         </div>
@@ -44,7 +44,7 @@
           <Cards
             heading="Team"
             content="Meet the Coding Club Team at FoET, University of Lucknow"
-            routerLink="/"
+            routerLink="/team"
             color="#7E6551"
           />
         </div>

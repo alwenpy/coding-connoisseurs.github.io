@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h2>team page</h2>
-  </div>
+  <div>subcomponent resources</div>
 </template>
 
 <script>

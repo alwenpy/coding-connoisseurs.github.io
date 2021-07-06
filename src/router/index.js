@@ -1,11 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../components/HomePage/HomePage.vue';
+
+//opportunities section
 import Opportunities from '../components/Opportunities/Opportunities.vue';
 import CP from '../components/Opportunities/SubComponents/CP.vue';
 import Opensource from '../components/Opportunities/SubComponents/Opensource.vue';
 import Scholarship from '../components/Opportunities/SubComponents/Scholarship.vue';
 import InternshipAndJobs from '../components/Opportunities/SubComponents/InternshipAndJobs.vue';
+
+//resources section
 import Resources from '../components/Resources/Resources.vue';
+import SDEInterview from '../components/Resources/SubComponents/SDEInterview.vue';
+import Roadmaps from '../components/Resources/SubComponents/Roadmaps.vue';
+import UIUXResources from '../components/Resources/SubComponents/UIUXResources.vue';
+import PMResources from '../components/Resources/SubComponents/PMResources.vue';
+
+//events section
+import Events from '../components/Events/Events.vue';
+
+//team section
+import Team from '../components/Team/Team.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -27,7 +41,16 @@ const router = createRouter({
       path: '/resources',
       component: Resources,
       name: 'resources',
+      children: [
+        { path: '', component: SDEInterview, name: '' },
+        { path: 'sdeinterview', component: SDEInterview, name: 'sdeinterview' },
+        { path: 'roadmaps', component: Roadmaps, name: 'roadmaps' },
+        { path: 'pmresources', component: PMResources, name: 'pmresources' },
+        { path: 'uiuxresources', component: UIUXResources, name: 'uiuxresources' },
+      ],
     },
+    { path: '/events', component: Events, name: 'events' },
+    { path: '/team', component: Team, name: 'team' },
   ],
 });
 

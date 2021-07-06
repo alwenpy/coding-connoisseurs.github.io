@@ -45,7 +45,7 @@
                     <li><router-link to="/opportunities" replace>Oppurtunities</router-link></li>
                     <li><router-link to="/resources" replace>Resources</router-link></li>
                     <li><router-link to="/events" replace>Events</router-link></li>
-                    <li><router-link to="/teams" replace>Team</router-link></li>
+                    <li><router-link to="/team" replace>Team</router-link></li>
                     <li><router-link to="/joinus" replace>Join Us</router-link></li>
                   </ul>
                 </div>
