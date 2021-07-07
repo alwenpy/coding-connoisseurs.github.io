@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Facebook Developer Circle",
+    "description": "Developer Circles from Facebook is a program designed to create locally organized communities for developers. These communities are meant to educate and provide a forum for discussion and knowledge sharing around topics that are top-of-mind for developers in a particular market.",
+    "link": "https://developers.facebook.com/developercircles/"
+  },
+  {
+    "name": "Google Developer Group",
+    "description": "When you join a Google Developer Group, you’ll have the opportunity to meet local developers with similar interests in technology. A GDG meetup event includes talks on a wide range of technical topics where you can learn new skills through hands-on workshops.",
+    "link": "https://developers.google.com/community/gdg"
+  },
+  {
+    "name": "Google Developer Student Club",
+    "description": "Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome.",
+    "link": "https://developers.google.com/community/dsc"
+  },
+  {
+    "name": "PyLadies",
+    "description": "Women Who Love Coding in Python - PyLadies aims to provide a friendly support network for women and a bridge to the larger Python world. Anyone with an interest in Python is encouraged to participate!",
+    "link": "https://www.pyladies.com/"
+  },
+  {
+    "name": "Rails Girls",
+    "description": "Learn sketching, prototyping, basic programming and get introduced to the world of technology. Rails Girls was born in Finland, but is nowadays a global, non-profit volunteer community.",
+    "link": "http://railsgirls.com/"
+  },
+  {
+    "name": "Codess",
+    "description": "Codess is a community for female coders initiated by Microsoft. Codess was established to explore ways to promote gender diversity in the engineering field.",
+    "link": "https://www.codess.net/"
+  }
+]

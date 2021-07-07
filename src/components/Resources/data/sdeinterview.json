@@ -1,0 +1,53 @@
+{
+  "dsa": [
+    {
+      "title": "Cracking the Coding Interview",
+      "description": "Cracking the Coding Interview: 189 Programming Questions and Solutions is a book by Gayle Laakmann McDowell about coding interviews.",
+      "link": "http://www.crackingthecodinginterview.com/"
+    },
+    {
+      "title": "MIT OpenCourseware | Design and Analysis of Algorithms",
+      "description": "This is an intermediate algorithms course with an emphasis on teaching techniques for the design and analysis of efficient algorithms, emphasizing methods of application. Topics include divide-and-conquer, randomization, dynamic programming, greedy algorithms, incremental improvement, complexity, and cryptography.",
+      "link": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm"
+    },
+    {
+      "title": "MIT OpenCourseware | Introduction to Algorithms",
+      "description": "This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.",
+      "link": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/"
+    }
+  ],
+  "cp": [
+    {
+      "name": "The One year plan for competitive coding",
+      "description": "A comprehensive blog by Anjali Viramgama, where she breaks down her one-year plan to help you in your starting stages.",
+      "link": "https://medium.com/@anjaliviramgama/the-one-year-plan-for-competitive-coding-6af53f2f719c"
+    },
+    {
+      "name": "Leetcode Preparation Questions",
+      "description": "Collection of Leetcode questions for interview preparation.",
+      "link": "https://docs.google.com/spreadsheets/d/1KfZq_onP06UDqizkLOjraOfw2qIODDqMyd-3knUu3hA/edit#gid=196839908"
+    },
+    {
+      "name": "Super30 Curriculum",
+      "description": "An extensive list of Leetcode and System Design questions to practice. With more than 200 questions, it covers all the topics and levels of difficulties.",
+      "link": "https://docs.google.com/spreadsheets/d/1O_qwBKEESxXos-4auFjiU56RemuF2Fic--Mm7ABPvHA/edit#gid=0"
+    }
+  ],
+  "osdbms": [
+    {
+      "name": "BedTime stories OS",
+      "description": "bOOK FOR OS TODO: SEARCH FOR PDF AND PROVIDE LINK",
+      "link": ""
+    },
+    {
+      "name": "Last Minute Notes for OS",
+      "description": "Comprehensive notes for Operating Systems for last minute revision by GeeksforGeeks.",
+      "link": "https://www.geeksforgeeks.org/last-minute-notes-operating-systems/"
+    },
+    {
+      "name": "Last Minute Notes for DBMS",
+      "description": "Comprehensive notes for Fundamentals of Database Management Systems for last minute revision by GeeksforGeeks.",
+      "link": "https://www.geeksforgeeks.org/last-minute-notes-dbms/"
+    }
+  ]
+}

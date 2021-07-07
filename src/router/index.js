@@ -5,7 +5,7 @@ import HomePage from '../components/HomePage/HomePage.vue';
 import Opportunities from '../components/Opportunities/Opportunities.vue';
 import CP from '../components/Opportunities/SubComponents/CP.vue';
 import Opensource from '../components/Opportunities/SubComponents/Opensource.vue';
-import Scholarship from '../components/Opportunities/SubComponents/Scholarship.vue';
+import DeveloperClubs from '../components/Opportunities/SubComponents/DeveloperClubs.vue';
 import InternshipAndJobs from '../components/Opportunities/SubComponents/InternshipAndJobs.vue';
 
 //resources section
@@ -32,7 +32,7 @@ const router = createRouter({
         { path: '', component: Opensource, name: '' },
         { path: 'opensource', component: Opensource, name: 'opensource' },
         { path: 'cp', component: CP, name: 'cp' },
-        { path: 'scholarship', component: Scholarship, name: 'scholarship' },
+        { path: 'devclubs', component: DeveloperClubs, name: 'devclubs' },
         { path: 'internshipandjobs', component: InternshipAndJobs, name: 'internshipandjobs' },
       ],
       InternshipAndJobs,

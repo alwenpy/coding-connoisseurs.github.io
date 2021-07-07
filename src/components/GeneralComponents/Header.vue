@@ -46,7 +46,7 @@
                     <li><router-link to="/resources" replace>Resources</router-link></li>
                     <li><router-link to="/events" replace>Events</router-link></li>
                     <li><router-link to="/team" replace>Team</router-link></li>
-                    <li><router-link to="/joinus" replace>Join Us</router-link></li>
+                    <li><a href="http://discord.gg/QGZc57Y9yq">Join Us</a></li>
                   </ul>
                 </div>
               </div>

@@ -16,7 +16,7 @@
         <div class="col-sm-6 col-md-5 col-12" :style="{ padding: '0' }">
           <Cards
             heading="Opportunities"
-            content="Competitions, Fellowship, Scholarship and Open Source"
+            content="Open Source, Competitive Programming, Developer Clubs, Internships and Job"
             routerLink="/opportunities"
             color="#8896AB"
           />

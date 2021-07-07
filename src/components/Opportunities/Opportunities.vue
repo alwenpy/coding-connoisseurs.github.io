@@ -13,8 +13,8 @@
           route: '/opportunities/cp',
         },
         {
-          tabName: 'Scholarship',
-          route: '/opportunities/scholarship',
+          tabName: 'Developer Clubs',
+          route: '/opportunities/devclubs',
         },
         {
           tabName: 'Internship and Jobs',
