@@ -18,34 +18,34 @@
   ],
   "cp": [
     {
-      "name": "The One year plan for competitive coding",
+      "title": "The One year plan for competitive coding",
       "description": "A comprehensive blog by Anjali Viramgama, where she breaks down her one-year plan to help you in your starting stages.",
       "link": "https://medium.com/@anjaliviramgama/the-one-year-plan-for-competitive-coding-6af53f2f719c"
     },
     {
-      "name": "Leetcode Preparation Questions",
+      "title": "Leetcode Preparation Questions",
       "description": "Collection of Leetcode questions for interview preparation.",
       "link": "https://docs.google.com/spreadsheets/d/1KfZq_onP06UDqizkLOjraOfw2qIODDqMyd-3knUu3hA/edit#gid=196839908"
     },
     {
-      "name": "Super30 Curriculum",
+      "title": "Super30 Curriculum",
       "description": "An extensive list of Leetcode and System Design questions to practice. With more than 200 questions, it covers all the topics and levels of difficulties.",
       "link": "https://docs.google.com/spreadsheets/d/1O_qwBKEESxXos-4auFjiU56RemuF2Fic--Mm7ABPvHA/edit#gid=0"
     }
   ],
   "osdbms": [
     {
-      "name": "BedTime stories OS",
+      "title": "BedTime stories OS",
       "description": "bOOK FOR OS TODO: SEARCH FOR PDF AND PROVIDE LINK",
       "link": ""
     },
     {
-      "name": "Last Minute Notes for OS",
+      "title": "Last Minute Notes for OS",
       "description": "Comprehensive notes for Operating Systems for last minute revision by GeeksforGeeks.",
       "link": "https://www.geeksforgeeks.org/last-minute-notes-operating-systems/"
     },
     {
-      "name": "Last Minute Notes for DBMS",
+      "title": "Last Minute Notes for DBMS",
       "description": "Comprehensive notes for Fundamentals of Database Management Systems for last minute revision by GeeksforGeeks.",
       "link": "https://www.geeksforgeeks.org/last-minute-notes-dbms/"
     }

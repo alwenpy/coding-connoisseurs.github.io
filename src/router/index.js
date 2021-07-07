@@ -22,6 +22,13 @@ import Events from '../components/Events/Events.vue';
 import Team from '../components/Team/Team.vue';
 const router = createRouter({
   history: createWebHistory(),
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ left: 0, top: 0 });
+      }, 500);
+    });
+  },
   routes: [
     { path: '/', component: HomePage, name: 'home' },
     {
