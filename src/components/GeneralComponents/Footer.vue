@@ -8,10 +8,8 @@
     </div>
 
     <div class="row pt-5 pb-3">
-      <div class="col-md-auto col-sm-12">
-        &copy; Coding Connoiseurs, FoET, University of Lucknow
-      </div>
-      <div class="col-md-auto col-sm-12">
+      <div class="col-md-6 col-sm-12">&copy; Coding Connoiseurs, FoET, University of Lucknow</div>
+      <div class="col-md-6 col-sm-12">
         Made by <a href="http://github.com/arjundubey-cr">Arjun Dubey</a>
       </div>
     </div>
