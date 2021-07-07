@@ -6,6 +6,21 @@
         <p class="card-text">
           {{ ele.description }}
         </p>
+        <p>
+          <strong>Eligibility:</strong>
+          {{ ele.eligibility }}
+        </p>
+        <p>
+          <strong>Application Period:</strong>
+          {{ ele.applicationPeriod }}
+        </p>
+        <p>
+          <strong>Team Size: </strong>
+          {{ ele.teamSize }}
+        </p>
+        <a :href="`${ele.link}`">
+          <button type="button" class="btn btn-light">Get Started</button>
+        </a>
       </div>
     </div>
   </div>
