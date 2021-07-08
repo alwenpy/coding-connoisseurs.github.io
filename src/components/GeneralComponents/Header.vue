@@ -42,7 +42,7 @@
                 <div class="col-md-6 col-12">
                   <ul class="menu-links" @click="modal.hide()">
                     <li><router-link to="/" replace>Home</router-link></li>
-                    <li><router-link to="/opportunities" replace>Oppurtunities</router-link></li>
+                    <li><router-link to="/opportunities" replace>Opportunities</router-link></li>
                     <li><router-link to="/resources" replace>Resources</router-link></li>
                     <li><router-link to="/events" replace>Events</router-link></li>
                     <li><router-link to="/team" replace>Team</router-link></li>
@@ -54,47 +54,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#"
-              >Home
-              <span class="visually-hidden">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Dropdown</a
-            >
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
-            </div>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-sm-2" type="text" placeholder="Search" />
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div> -->
     </div>
   </nav>
 </template>

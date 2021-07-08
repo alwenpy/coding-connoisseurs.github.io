@@ -24,7 +24,7 @@
         <div class="col-sm-6 col-md-7 col-12" :style="{ padding: '0' }">
           <Cards
             heading="Resources"
-            content="Learning New Skills, Interview Prepration and much more"
+            content="Learning New Skills, Interview Preparation and much more"
             routerLink="/resources"
             color="#938581"
           />
@@ -35,7 +35,7 @@
         <div class="col-sm-6 col-md-7 col-12" :style="{ padding: '0' }">
           <Cards
             heading="Events"
-            content="View upcoming and past events from Coding Connoiseurs"
+            content="View upcoming and past events from Coding Connoisseurs"
             routerLink="/events"
             color="#466362"
           />

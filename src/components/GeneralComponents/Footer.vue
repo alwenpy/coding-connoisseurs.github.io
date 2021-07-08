@@ -1,6 +1,6 @@
 <template>
   <div class="mt-5">
-    <div class="footer container-md">
+    <div class="footer container">
       <div class="col pt-5">
         <a class="btn discord" href="http://discord.gg/QGZc57Y9yq"
           ><img src="../../assets/discord.svg" :style="{ width: '50px' }"
@@ -14,8 +14,10 @@
       </div>
 
       <div class="row pt-5 pb-3">
-        <div class="col-md-6 col-sm-12">&copy; Coding Connoiseurs, FoET, University of Lucknow</div>
         <div class="col-md-6 col-sm-12">
+          &copy; Coding Connoisseurs, FoET, University of Lucknow
+        </div>
+        <div class="col-md-6 col-sm-12 text-sm-start text-end">
           Made by <a href="http://github.com/arjundubey-cr">Arjun Dubey</a>
         </div>
       </div>
