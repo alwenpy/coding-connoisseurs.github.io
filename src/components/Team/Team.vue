@@ -7,7 +7,7 @@
         v-for="member in teamdata"
         :key="member.githubHandle"
       >
-        <div class="card text-center">
+        <div class="card text-center text-white bg-dark">
           <img
             :src="`https://github.com/${member.githubHandle}.png`"
             class="card-img-top"
@@ -16,7 +16,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ member.name }}</h5>
             <p class="card-text">
-              <a class="btn btn-primary" :href="`https://github.com/${member.githubHandle}`"
+              <a class="btn btn-light" :href="`https://github.com/${member.githubHandle}`"
                 >View On Github</a
               >
             </p>

@@ -19,7 +19,7 @@ export default {
 .menu-links {
   list-style-type: none;
   display: flex;
-  padding: 0;
+  padding: inherit;
 }
 .menu-links li {
   text-align: center;
