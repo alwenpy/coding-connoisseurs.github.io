@@ -44,7 +44,4 @@ export default {};
 .github:hover {
   background-color: rgba(33, 31, 31, 0.5);
 }
-.footer {
-  border-top: 1px solid rgba(53, 57, 53, 0.5);
-}
 </style>
