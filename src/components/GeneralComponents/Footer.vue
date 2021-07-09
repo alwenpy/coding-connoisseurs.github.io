@@ -2,13 +2,13 @@
   <div class="mt-5">
     <div class="footer container">
       <div class="col pt-5">
-        <a class="btn discord" href="http://discord.gg/QGZc57Y9yq"
+        <a class="btn discord" href="http://discord.gg/QGZc57Y9yq" target="_blank"
           ><img src="../../assets/discord.svg" :style="{ width: '50px' }"
         /></a>
-        <a class="btn github" href="https://github.com/Coding-Connoisseurs/"
+        <a class="btn github" href="https://github.com/Coding-Connoisseurs/" target="_blank"
           ><img src="../../assets/github.svg" :class="github" :style="{ width: '50px' }"
         /></a>
-        <a class="btn youtube" href="http://www.youtube.com/channel/UCfaEKlZXHP1SRc-rSDSi1tg"
+        <a class="btn youtube" href="http://www.youtube.com/channel/UCfaEKlZXHP1SRc-rSDSi1tg" target="_blank"
           ><img src="../../assets/youtube.svg" :style="{ width: '50px' }"
         /></a>
       </div>
@@ -18,7 +18,7 @@
           &copy; Coding Connoisseurs, FoET, University of Lucknow
         </div>
         <div class="col-md-6 col-sm-12 text-sm-start text-end">
-          Made by <a href="http://github.com/arjundubey-cr">Arjun Dubey</a>
+          Made by <a href="http://github.com/arjundubey-cr" target="_blank" >Arjun Dubey</a>
         </div>
       </div>
     </div>
