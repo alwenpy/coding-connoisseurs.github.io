@@ -20,11 +20,11 @@
             {{ ele.stipend }}
           </template>
           <template v-else>
-            <a :href="`${ele.stipend}`" :style="{ color: 'white' }">Check Here </a>
+            <a :href="`${ele.stipend}`" :style="{ color: 'white' }" target="_blank" >Check Here </a>
           </template>
         </p>
-        <a :href="`${ele.link}`">
-          <button type="button" class="btn btn-light">Get Started</button>
+        <a :href="`${ele.link}`" target="_blank" >
+          <button type="button" class="btn btn-light" >Get Started</button>
         </a>
       </div>
     </div>
