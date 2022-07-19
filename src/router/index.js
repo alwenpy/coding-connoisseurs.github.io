@@ -17,6 +17,8 @@ import PMResources from '../components/Resources/SubComponents/PMResources.vue';
 
 //events section
 import Events from '../components/Events/Events.vue';
+import UpComing from '../components/Events/SubComponents/UpComing.vue';
+import CodeofConduct from '../components/Events/SubComponents/CodeofConduct.vue';
 
 //team section
 import Team from '../components/Team/Team.vue';
@@ -56,7 +58,14 @@ const router = createRouter({
         { path: 'uiuxresources', component: UIUXResources, name: 'uiuxresources' },
       ],
     },
-    { path: '/events', component: Events, name: 'events' },
+    { path: '/events', component: Events, name: 'events' ,
+    children: [
+      { path: '', component: UpComing, name: '' },
+      { path: 'upcoming', component: UpComing, name: 'upcoming' },
+      { path: 'codeofconduct', component: CodeofConduct, name: 'codeofconduct' },
+    ],
+  
+  },
     { path: '/team', component: Team, name: 'team' },
   ],
 });
