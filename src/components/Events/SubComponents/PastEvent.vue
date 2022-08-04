@@ -76,7 +76,7 @@
               <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612574/CodingClub/f0b7989c-734d-4e2d-84bb-0ab4364ae78f_aiouyd.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612593/CodingClub/IMG_8284_y6afem.heic" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659643194/CodingClub/7_nejpvl.jpg" class="d-block w-100" alt="..." />
             </div>
           </div>
           <button
