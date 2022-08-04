@@ -58,25 +58,25 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./images/1.JPG" style="width: 250px" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612503/CodingClub/IMG_4293_eqktxx.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./images/2.JPG" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612512/CodingClub/IMG_4268_xgeujr.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./images/3.JPG" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612515/CodingClub/IMG_4357_szvljh.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./images/4.JPG" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612504/CodingClub/IMG_4266_u6em0q.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./images/5.JPG" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612542/CodingClub/IMG_4500_dpnw3q.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./images/6.JPG" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612574/CodingClub/f0b7989c-734d-4e2d-84bb-0ab4364ae78f_aiouyd.jpg" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="./images/7.jpg" class="d-block w-100" alt="..." />
+              <img src="https://res.cloudinary.com/pndmall/image/upload/v1659612593/CodingClub/IMG_8284_y6afem.heic" class="d-block w-100" alt="..." />
             </div>
           </div>
           <button
