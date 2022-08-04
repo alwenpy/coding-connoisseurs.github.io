@@ -18,13 +18,14 @@ import PMResources from '../components/Resources/SubComponents/PMResources.vue';
 //events section
 import Events from '../components/Events/Events.vue';
 import UpComing from '../components/Events/SubComponents/UpComing.vue';
+import PastEvent from '../components/Events/SubComponents/PastEvent.vue';
 import CodeofConduct from '../components/Events/SubComponents/CodeofConduct.vue';
 
 //team section
 import Team from '../components/Team/Team.vue';
 const router = createRouter({
   history: createWebHistory(),
-  scrollBehavior(to, from, savedPosition) {
+  scrollbehaviour(to, from, savedPosition) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve({ left: 0, top: 0 });
@@ -62,6 +63,7 @@ const router = createRouter({
     children: [
       { path: '', component: UpComing, name: '' },
       { path: 'upcoming', component: UpComing, name: 'upcoming' },
+      { path: 'pastevents', component: PastEvent, name: 'pastevents' },
       { path: 'codeofconduct', component: CodeofConduct, name: 'codeofconduct' },
     ],
   
