@@ -49,7 +49,7 @@
  
  @media (prefers-reduced-motion: no-preference) {
    :root {
-     scroll-behavior: smooth;
+     scroll-behaviour: smooth;
    }
  }
  
@@ -6379,6 +6379,9 @@
    display: none;
    float: left;
    width: 100%;
+  
+   margin: auto;
+ 
    margin-right: -100%;
    -webkit-backface-visibility: hidden;
    backface-visibility: hidden;
@@ -6386,13 +6389,30 @@
    transition: transform 0.6s ease-in-out;
    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
  }
+ .carousel-item img {       
+  /* display:block; */
+  height: 550px;
+  /* width: 100%; */
+   /* object-fit:fill;  */
+  object-fit: scale-down;
+
+  /* width: 250px; */
+  /* height: auto;  */
+  /* max-width: 100%; */
+}
+.row-pdf{
+
+  justify-content: space-around;
+}
  
  @media (prefers-reduced-motion: reduce) {
    .carousel-item {
      transition: none;
    }
  }
- 
+ .space{
+  margin-top: 20px;
+ }
  .carousel-item.active,
  .carousel-item-next,
  .carousel-item-prev {

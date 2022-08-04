@@ -9,6 +9,10 @@
           tabName: 'UpComing Events',
           route: '/events/upcoming',
         },
+         {
+          tabName: 'Past Events',
+          route: '/events/pastevents',
+        },
 
         {
           tabName: 'Code Of Conduct',
